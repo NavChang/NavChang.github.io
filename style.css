@@ -1,0 +1,66 @@
+header {
+    background-color: #ff9900;
+    overflow: auto;
+    margin: 0px 100px 0px 100px;
+}
+
+body {
+    background-image: url('images/mango_bg.jpg');
+    font-family: 'Lucida Console','Arial';
+
+}
+.logo {
+    float: left;
+}
+
+.logo img{
+    float: left;
+}
+
+.logo h1 {
+   font-size: 50px;
+   margin: 0;
+   color: white;
+}
+nav {
+    float: right;
+    margin-right: 60px;
+    padding: 0;
+    margin-top: 60px;
+}
+ nav ul {
+    padding: 0 0 0 0;
+    margin: 0;
+ }
+
+.nav_bar .dropdown {
+    color: white;
+    list-style-type: none;
+    display: inline-block;
+    background-color: #ff9900;
+    font-size:30px;
+    padding:0px 20px 0px 20px;
+    margin: 0;
+}
+.nav_bar li a {
+    color: white;
+    text-decoration: none;
+}
+.dropdown:hover, .dropdown a:hover, .link:hover{
+    color:#ffff00;
+}
+
+.main-content{
+    margin: 0px 100px 0 100px;
+}
+
+.content {
+    background-color: #e6e6e6;
+    padding-bottom: 200px;
+    margin: 20px 0px 20px 0px;
+}
+ .content h2{
+    color: white;
+    background-color: #ff9900;
+    padding: 5px 0px 5px 0;
+ }
