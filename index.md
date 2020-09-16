@@ -1,1 +1,1 @@
-About me | Projects | News
+[About me](index.md)    [Projects](projects.md)      News
