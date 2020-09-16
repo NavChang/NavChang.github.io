@@ -1,1 +1,1 @@
-My site
+About me | Projects | News
