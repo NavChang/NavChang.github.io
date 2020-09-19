@@ -1,7 +1,12 @@
+body {
+    width: 60%;
+    margin: auto;
+}
+
 header {
-    background-color: #ff9900;
+    background-color: grey;
     overflow: auto;
-    margin: 0px 100px 0px 100px;
+    margin: auto;
 }
 
 body {
@@ -13,20 +18,17 @@ body {
     float: left;
 }
 
-.logo img{
-    float: left;
-}
+
 
 .logo h1 {
-   font-size: 50px;
+   font-size: 30px;
    margin: 0;
    color: white;
 }
 nav {
     float: right;
-    margin-right: 60px;
     padding: 0;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
 }
  nav ul {
     padding: 0 0 0 0;
@@ -37,8 +39,8 @@ nav {
     color: white;
     list-style-type: none;
     display: inline-block;
-    background-color: #ff9900;
-    font-size:30px;
+    background-color: grey;
+    font-size:20px;
     padding:0px 20px 0px 20px;
     margin: 0;
 }
@@ -47,20 +49,47 @@ nav {
     text-decoration: none;
 }
 .dropdown:hover, .dropdown a:hover, .link:hover{
-    color:#ffff00;
+    color:green;
 }
 
-.main-content{
-    margin: 0px 100px 0 100px;
+.intro {
+    padding: 10px 0px 0px 0px;
+    width:100%;
 }
 
-.content {
-    background-color: #e6e6e6;
-    padding-bottom: 200px;
-    margin: 20px 0px 20px 0px;
+.headshot {
+    float: left;
+    padding: 0 10px;
+    width: 45%;
 }
- .content h2{
+
+.headshot .profile_picture {
+    width: 100%;
+}
+
+.short_intro {
+    float: left;
+    width: 45%;
+    padding: 0 10px;
+}
+
+button {
+    margin: 0 auto;
+    display: block;
+    background-color: grey; /* Green */
+    border: none;
     color: white;
-    background-color: #ff9900;
-    padding: 5px 0px 5px 0;
- }
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: green;
+}
+
+.about {
+    padding: 250px 0px 0px 0px;
+}
